@@ -12,7 +12,7 @@ public class Problem_02 {
 		double y = 2.5 * 3 ;
 		double z = x - y;
 			System.out.println("9.5 X 4.5 - 2.5 X 3=\t " + z);
-		    System.out.println("----------------------------------");
+		    System.out.println("----------------------------------............");
 		double a = 45.5 - 3.5;
 		    System.out.println(" 45.5 - 3.5=\t" + a);
 		double answer = z / a;
