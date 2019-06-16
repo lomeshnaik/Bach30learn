@@ -7,7 +7,15 @@ hour. (Note that 1 mile is 1.6 kilometers.)
 */
 public class Problem_07 {
 	public static void main(String[] agrs) {
-		System.out.println("Miles / (hour + (minutes / 60) + (seconds / 3600)) * 1.6");
-		System.out.println("24    / (1    + (40      / 60) + (35      / 3600))  * 1.6");
+
+		int mile = 24 ,hour = 1, min = 40, sec = 35;
+		double avg= ( mile / (hour + (min /60 ) + ( sec/ 3600)) * 1.6);
+
+		System.out.println("Miles / (hour + (minutes / 60) + (seconds / 3600)) * 1.6 = Average speed in kilometers");
+		System.out.println("Average speed of Runner=" + avg +"kilometers");
+		System.out.println("Average speed of Runner=\t" + Math.round(avg) +"  kilometers");
+		System.out.println("Average speed of Runner=\t" + Math.floor(avg) +"  kilometers");
+		System.out.println("Average speed of Runner=\t" + Math.ceil(avg) +"  kilometers");
+
 	}
 }
