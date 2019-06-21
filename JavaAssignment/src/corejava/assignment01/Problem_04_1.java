@@ -25,8 +25,6 @@ public class Problem_04_1 {
          String hexNumber =Integer.toHexString(dec); //
          System.out.println("The Hexadecimal value is =" + hexNumber);
 
-
-
     }
 
 }
