@@ -10,14 +10,27 @@ fahrenheit = (9 / 5) * celsius + 32
 import java.util.Scanner;
 
 public class Problem_01 {
+    static Scanner input  = new Scanner (System.in);
+
     public static void main(String[] args) {
         // Create new Scanner object
-        Scanner input = new Scanner(System.in);
-
-        // Prompt user to input a double
-        System.out.print("Enter a degree in Celsius: ");
+        System.out.println("Enter the Temperature in Celsius:\n");
         double celsius = input.nextDouble();
+        // Prompt user to input a double
+        //System.out.print("Enter a degree in Celsius: ");
 
-        System.out.println("TODO: Print the output ");
+        double fahrenheit = ( ( 9/5 ) * celsius )+ 32 ;
+
+        System.out.println("The Temperature in Fahrenheit: \t" + fahrenheit );
+
+        System.out.println("Enter the Fahrenheit:\t ");
+
+        double far = input.nextDouble();
+        double cel = ( far - 32) * 5 / 9 ; //(32°F − 32) × 5/9 = 0°C
+        System.out.println("The Temperature in celsius: \t" + cel );
     }
-}
+
+
+    }
+
+

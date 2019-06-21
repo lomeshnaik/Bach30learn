@@ -16,9 +16,8 @@ public class Problem_04 {
 		double pounds = input.nextDouble();
 
 		// Convert pounds into kilograms
-		double kilograms = 0; // TODO : write the equation to convert to kilogram
-
+		double kilograms = pounds * KILOGRAMS_PER_POUND; // TODO : write the equation to convert to kilogram
 		// Display the results
-		System.out.println(pounds + " pounds is " + kilograms + " kilograms");
+		System.out.println(pounds + " pounds is= " + kilograms + " kilograms");
 	}
 }

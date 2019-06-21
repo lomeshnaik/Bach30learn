@@ -9,6 +9,7 @@ volume = area * length
 */
 import java.util.Scanner;
 
+
 public class Problem_02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -19,6 +20,11 @@ public class Problem_02 {
         double radius = input.nextDouble();
         double length = input.nextDouble();
 
-        System.out.println("Compute area and volume and print the value");
+        double area = radius * radius * PI;
+        System.out.println("The area of the Cylinder :\t" + area);
+        double volume = area * length;
+        System.out.println("The Volume of the Cylinder :\t" + volume);
+
+       System.out.println("Compute area and volume and print the value:\t " + area +";\t \t" + volume);
     }
 }

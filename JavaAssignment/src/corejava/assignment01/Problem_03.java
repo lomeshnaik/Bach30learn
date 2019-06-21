@@ -11,10 +11,10 @@ public class Problem_03 {
 		System.out.println("Enter the Number to be summed:\t\t  ");
 		double summation= 0;
 		int x = sc.nextInt();
-		for (int  i = 0 ; i <= x; i++)
+		for (int  i = 0 ; i <= x; i++) {
 
-			summation = summation + i ;
-
+			summation = summation + i;
+		}
 		System.out.println("Summation of enter number = " + summation);
 	}
 }

@@ -7,17 +7,19 @@ import java.util.Scanner;
 public class Problem_03 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-
 		final double METERS_PER_FOOT = 0.305;
 
 		// Prompt user to enter a number in feet
 		System.out.print("Enter a value for feet: ");
 		double feet = input.nextDouble();
-
 		// Convert feet into meters
-		double meters = 0 ; // TODO : Add the logic here.
+		double meters = feet * METERS_PER_FOOT ; // TODO : Add the logic here.
+		System.out.println("Meter=" +meters);
 
+		feet = meters / METERS_PER_FOOT;
+		System.out.println(" Feet is " + feet);
 		// Display results
-		System.out.println(feet + " feet is " + meters + " meters");
+		System.out.println(feet + " feet is " + meters + " meters\n");
+		System.out.println(meters + " Meters is " + feet + " Feet");
 	}
 }
