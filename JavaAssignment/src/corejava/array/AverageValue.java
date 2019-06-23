@@ -11,6 +11,12 @@ public class AverageValue {
 	public static void main(String[] args) {
 		int[] numbers = new int[]{10,20,30,25,16,70,100};
 		// Write a for loop or while loop to find the average
+		int  sum = 0 ;
+		for ( int i : numbers ){
+			 sum += i;
+		}
+		float avg = sum / numbers.length;
+		System.out.println("The Sum, length of array and Average of an array is =\t" + sum + "/"+ numbers.length +"= " + avg);
 	}
 }
 /*

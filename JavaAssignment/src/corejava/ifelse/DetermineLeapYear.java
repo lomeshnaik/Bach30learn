@@ -13,9 +13,10 @@ public class DetermineLeapYear {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a Year: \n");
 		int year  = scan.nextInt();
-		
+		int leapYear = year % 2;
+
 		boolean isLeapYear = false; // Your Logic should go here.
-		if(isLeapYear)
+		if((leapYear != 0) == isLeapYear)
 			 System.out.println("Year " + year + " is a leap year");
 		else
 			System.out.println("Year " + year + " is a not leap year");

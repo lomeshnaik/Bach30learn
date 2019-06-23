@@ -11,15 +11,18 @@ import java.util.Scanner;
  *  3 is sum of previous 1 + 2 like wise...
  * 
  * @author jrout
- *
+* Fibonacci Series upto 5
+0 1 1 2 3
  */
+
 public class FibonacciSeries {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a Limit for Fibonacci Series: \n");
 		int limit  = scan.nextInt();
-		
+        System.out.println("The Limit is :"+ limit);
+
 		long[] series = new long[limit];
 		//create first 2 series elements
         series[0] = 0;
@@ -28,17 +31,20 @@ public class FibonacciSeries {
 		for(int i=2; i < limit; i++){
 			// Your Logic goes here to construct the fibonacci series...
 			 // series[i] = Take the sum of previous two array index...
-		}
+
+			series[i] = series[0] + series[1];
+			//System.out.print(series[i]);
+			series[0]=series[1];
+			series[1]=series[i];
+			System.out.print(series[i]);
+			}
 		
 		System.out.println("Fibonacci Series upto " + limit);
         for(int i=0; i< limit; i++){
-                System.out.print(series[i] + " ");
+                System.out.print(" "+series[i] );
         }
 	}
 
 }
 
-/**
- * Fibonacci Series upto 5
-	0 1 1 2 3 
-*/
+

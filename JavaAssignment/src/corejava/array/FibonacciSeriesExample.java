@@ -14,17 +14,19 @@ public class FibonacciSeriesExample {
         int limit = 20;
        
         long[] series = new long[limit];
-       
         //create first 2 series elements
         series[0] = 0;
         series[1] = 1;
        
         //create the Fibonacci series and store it in an array
-        for(int i=2; i < limit; i++){
+        for(int i=2; i <= limit; i++){
         	// Write your code here to fill the series array with fibonaaci values.
-//                series[i] = 
-        }
-       
+               series[i] = series[0] + series[1];
+                System.out.println("\t"+series[i]);
+               series[0] = series[1];
+               series[1] = series[i];
+               }
+
         //print the Fibonacci series numbers
        
         System.out.println("Fibonacci Series upto " + limit);
