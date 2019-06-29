@@ -13,19 +13,19 @@ public class TwoDimensionArrayExample {
         String tarray[][] = {{"r1","r2","r3","r4","r5","r6"},{"c1","c2","c3"}};
 
 
-        //TwoDimensionArrayExample td = new TwoDimensionArrayExample();
-       // td.display(tarray);
+        //TwoDimensionArrayExample td = new TwoDimensionArrayExample();  // for public void method
+       // td.display(tarray);// for public void method
         display(tarray);
         System.out.println("This is First Array");
-       // td.display(fArray);
+       // td.display(fArray); // for public void method
         display(fArray);
         System.out.println("This is a Second Array");
-       //td.display(sArray);
+       //td.display(sArray); // for public void method
         display(sArray);
 
     }
 
-    public static void display(int x[][]) {
+    public static void display(int x[][]) { // try using public void method
         for (int row = 0; row < x.length; row++) {
             for (int column = 0; column < x[row].length; column++) {
                 System.out.print(x[row][column] + "   \t"); // second for loop column *** use print**** not println
