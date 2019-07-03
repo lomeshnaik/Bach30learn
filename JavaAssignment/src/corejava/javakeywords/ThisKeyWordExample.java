@@ -14,7 +14,7 @@ public class ThisKeyWordExample {
 
         private int x;  // x is instant variable ----
 
-        public T(int x) // change x to a  variable name or < a >to < x >  ais local variable
+        public T(int x) // change <x> to <a>  variable name or < a >to < x >  ais local variable
         {
            this.x = x; // then try using This key word
         }
