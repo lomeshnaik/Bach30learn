@@ -11,7 +11,8 @@ public class AbstractClassExample {
 }
 abstract class Student1
 {
-    public void phoneCall(){
+    public void phoneCall()
+    {
         System.out.println("Phone can Call");
         }
         public abstract void phoneMove();
@@ -29,6 +30,7 @@ abstract class Student2 extends Student1
 {
     public void phoneDance()
     {
+
         System.out.println("Phone can Dance");
     }
     public void phoneCook()

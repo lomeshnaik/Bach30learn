@@ -20,7 +20,7 @@ class D
 class E extends D {
     public void abc() {
 
-        super.abc(); // super key word as a objects
+        super.abc(); // super key word as a objects***********************
         System.out.println("B abc method");
         //public void shaw(){ try
         //System.out.println("Print i="+ i); try
