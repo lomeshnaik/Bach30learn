@@ -14,11 +14,8 @@ public class ExceptionExample2 {
 
         public static int getAnInteger(){
             while(!sc.hasNextInt())
-            {
-
-                    sc.nextLine();
+            {    sc.nextLine();
                     System.out.println("That's not an integer.Try Again:");
-
                 }
             return  sc.nextInt();
             }
