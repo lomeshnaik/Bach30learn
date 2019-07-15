@@ -1,6 +1,7 @@
 package corejava.Exceptions;
 //open file Exception // Throwing the FileNotFoundException
 
+import java.io.FileDescriptor;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,8 +11,8 @@ public class ExceptionExample7 {
     public static void main(String[] args) {
 
         try {
-            openFile("C:\\Users\\user\\Desktop\\Assignment\\Assignment\\JavaAssignment\\src\\corejava\\PasswordAndLink");
-            System.out.println("file has found");
+            openFile("C:\\Users\\user\\Desktop\\Assignment\\Assignment\\JavaAssignment\\src\\corejava\\PasswordAndLink.txt");
+            System.out.println("file has found" + new FileInputStream(FileDescriptor.in));
 
             //display -- file has found   java.io.FileInputStream@5b6f7412
         } catch (Exception e){

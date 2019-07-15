@@ -4,7 +4,7 @@ public class Employee {
     public int id;
     public String name;
     public  String department;
-    public String address;
+    public Address address;
 
     public Employee(int id){
         this.id = id;
@@ -13,7 +13,7 @@ public class Employee {
         this.id =id;
         this.name = name;
     }
-    public Employee (int id , String name,String department, String address ) {
+    public Employee(int id, String name, String department) { //, Address address ) {
         this(id, name);
         this.department = department;
         this.address = address;

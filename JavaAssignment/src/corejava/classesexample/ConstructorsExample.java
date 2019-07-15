@@ -9,8 +9,8 @@ public class ConstructorsExample {
         ref.printDetail(employee);
         Employee employee1 =new Employee(122 , "lom");
         ref.printDetail(employee1);
-        Employee employee2 =new Employee(122 , "lom", "sale" , "india");
-        ref.printDetail(employee2);
+        Employee employee3 =new Employee(122 , "lom", "sale" );
+        ref.printDetail(employee3);
         //employee.id=10;
         //employee.name= "lome";
         //System.out.println("id =" + employee.id);
