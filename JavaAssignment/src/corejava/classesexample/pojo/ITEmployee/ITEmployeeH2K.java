@@ -1,5 +1,7 @@
 package corejava.classesexample.pojo.ITEmployee;
 
+import corejava.classesexample.pojo.Address;
+
 public class ITEmployeeH2K extends H2KEmployee {
     //private int id;
     // private String name;
@@ -16,13 +18,13 @@ public class ITEmployeeH2K extends H2KEmployee {
 
     }
 
-    public ITEmployeeH2K(int id, String name, String department, String address) {
+    public ITEmployeeH2K(int id, String name, String department, Address address) {
         this(id, name);
         super.setDepartment(department);
         super.setAddress(address);
     }
 
-    public ITEmployeeH2K(int id, String name, String department, String address, String experience) {
+    public ITEmployeeH2K(int id, String name, String department, Address address, String experience) {
         this(id, name);
         super.setDepartment(department);
         super.setAddress(address);

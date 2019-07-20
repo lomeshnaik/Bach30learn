@@ -1,10 +1,12 @@
 package corejava.classesexample.pojo.ITEmployee;
 
+import corejava.classesexample.pojo.Address;
+
 public class Employee2 {
     private int id;
     private String name;
     private String department;
-    private String address;
+    private Address address;
 
 
     public Employee2(int id){
@@ -14,7 +16,7 @@ public class Employee2 {
         this.id =id;
         this.name = name;
     }
-    public Employee2(int id , String name, String department, String address ) {
+    public Employee2(int id , String name, String department, Address address ) {
         this(id, name);
         this.department = department;
         this.address = address;
@@ -45,11 +47,11 @@ public class Employee2 {
         this.department = department;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 

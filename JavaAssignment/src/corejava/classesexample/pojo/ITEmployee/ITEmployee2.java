@@ -18,12 +18,12 @@ public class ITEmployee2 extends Employee2 {
 
     }
 
-    public ITEmployee2(int id, String name, String department, String address) {
+    public ITEmployee2(int id, String name, String department, Address address) {
         this(id, name);
         super.setDepartment(department);
         super.setAddress(address);
     }
-        public ITEmployee2(int id, String name, String department, String address,String experience) {
+        public ITEmployee2(int id, String name, String department, Address address,String experience) {
             this(id, name);
             super.setDepartment(department);
             super.setAddress(address);

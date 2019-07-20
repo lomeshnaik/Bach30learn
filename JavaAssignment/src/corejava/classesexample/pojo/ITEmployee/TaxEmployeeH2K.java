@@ -1,6 +1,7 @@
 package corejava.classesexample.pojo.ITEmployee;
 
 
+import corejava.classesexample.pojo.Address;
 
 public class TaxEmployeeH2K extends H2KEmployee {
     // private int id;
@@ -18,7 +19,7 @@ public class TaxEmployeeH2K extends H2KEmployee {
 
     }
 
-    public TaxEmployeeH2K(int id, String name, String department, String address) {
+    public TaxEmployeeH2K(int id, String name, String department, Address address) {
         super(id, name);
         super.setDepartment(department);
         super.setAddress(address);
