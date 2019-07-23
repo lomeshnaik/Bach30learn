@@ -11,7 +11,7 @@ public class ClassExample {
         p.name = "tom";
         p.height = 4;
         p.weight = 40;
-        Address pAddress = new Address("usa");
+        Address pAddress = new Address();
         pAddress.address = "chambe ct";
         pAddress.address2 = "lilburn";
         pAddress.zip = "33333";
@@ -21,7 +21,7 @@ public class ClassExample {
         s.name = "lom";
         s.height = 5;
         s.weight = 140;
-        Address sAddress =new Address("usa");
+        Address sAddress =new Address();
         sAddress.address = "chambe ct sw";
         sAddress.address2 = "lilburn";
         sAddress.zip = "33333";

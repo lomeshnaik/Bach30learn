@@ -15,7 +15,10 @@ public class InstanceOfExample {
 
         //Employee2 taxEmp1 = new TaxEmployee2(31, "priyamnaik,", "sale", "usa");
         //ref.printCommonDetail(taxEmp1);
-        Address add1= new Address("usa");
+        Address add1= new Address();
+        add1.address ="usa";
+        //String add2 = add1.getAddress();
+        //Employee2 add1 = new Employee2(new Address());
         Employee2 itEmp2 = new ITEmployee2(31, "priyamnaik,", "sale",add1, "java");
         ref.printDetail(itEmp2);
         Employee2 taxEmp2 = new TaxEmployee2(31, "priyamnaik,",  "car lone");

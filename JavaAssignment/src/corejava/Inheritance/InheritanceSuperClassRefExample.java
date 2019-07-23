@@ -22,10 +22,10 @@ public class InheritanceSuperClassRefExample {
         // System.out.println(taxEmp.getTaxType());
         Employee2 itEmp1 = new ITEmployee2(21, "lomeshnaik");
         ref.printCommonDetail(itEmp1);
-        Address add1= new Address("usa");
+        Address add1= new Address();
         Employee2 taxEmp1 = new TaxEmployee2(31, "priyamnaik,", "sale", add1);
         ref.printCommonDetail(taxEmp1);
-        Address add2= new Address("usa");
+        Address add2= new Address();
         Object obj = new ITEmployee2(21, "lomeshnaik");
         System.out.println(obj.toString());
         Object obj2 = new TaxEmployee2(31, "priyamnaik,", "sale",add2);
