@@ -1,13 +1,13 @@
 package corejava;
-import Vehicle.VehicleS;
+import vehicle.VehicleServices;
 
 public class VehicleClint {
     public static void main(String[] args) {
-        VehicleS vehicleservice = new VehicleS();
+        VehicleServices vehicleservices = new VehicleServices();
 
-       vehicleservice.doService("honda");
-       vehicleservice.doService("nissan");
-       vehicleservice.doService("kia");
+       vehicleservices.doServices("honda");
+      vehicleservices.doServices("nissan");
+      vehicleservices.doServices("kia");
 
     }
 }
