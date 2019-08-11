@@ -9,11 +9,13 @@
         <module name="RmiServer" />
         <module name="BikeClint" />
         <module name="BikeService" />
+        <module name="Collection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BikeClint" target="12" />
       <module name="BikeService" target="12" />
+      <module name="Collection" target="12" />
       <module name="RmiServer" target="12" />
     </bytecodeTargetLevel>
   </component>
