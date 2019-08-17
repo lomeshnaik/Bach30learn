@@ -6,17 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CoreJDBC" />
         <module name="RmiServer" />
+        <module name="Collection" />
+        <module name="SpringJDBC" />
+        <module name="SpringWithJPA" />
         <module name="BikeClint" />
         <module name="BikeService" />
-        <module name="Collection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BikeClint" target="12" />
       <module name="BikeService" target="12" />
       <module name="Collection" target="12" />
+      <module name="CoreJDBC" target="12" />
+      <module name="Database" target="1.5" />
       <module name="RmiServer" target="12" />
+      <module name="SpringJDBC" target="1.5" />
+      <module name="SpringWithJPA" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

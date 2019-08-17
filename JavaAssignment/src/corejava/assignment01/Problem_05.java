@@ -17,6 +17,7 @@ public class Problem_05 {
 
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
+
 		System.out.println("Enter the value  of width of the Rectangle:\n");
 		double wi = sc.nextDouble();
 		System.out.println("Enter the value  of height of the Rectangle\n");

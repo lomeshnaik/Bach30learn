@@ -4,6 +4,8 @@ import javalearn.Bach30.collection.impl.EmployeeDAOimpl;
 import org.junit.Test;
 
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -25,7 +27,7 @@ public class EmployeeDAOimplTest {
 
        /* for (int i = 0; i < names.size(); i++) {
             System.out.println(names.get(i));
-*/
+
        for (String name : names){ //Enhence Looping
            System.out.println(name);
     }
@@ -35,9 +37,11 @@ public class EmployeeDAOimplTest {
 
         names.clear();
        // names.forEach(System.out::println); //Advance looping
-        System.out.println(names.size()+ "After clear Array");
+        System.out.println(names.size()+ "After clear Array");*/
 
     assertNotNull(names);
 
+    Set<String> name = new TreeSet<>(names);
+        System.out.println(name);
     }
 }
