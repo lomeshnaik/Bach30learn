@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaAssignment/JavaAssignment.iml" filepath="$PROJECT_DIR$/JavaAssignment/JavaAssignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/RmiServer/RmiServer.iml" filepath="$PROJECT_DIR$/RmiServer/RmiServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCore/SpringCore.iml" filepath="$PROJECT_DIR$/SpringCore/SpringCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/Database/SpringJDBC/SpringJDBC.iml" filepath="$PROJECT_DIR$/Database/SpringJDBC/SpringJDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Database/SpringWithJPA/SpringWithJPA.iml" filepath="$PROJECT_DIR$/Database/SpringWithJPA/SpringWithJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/VehicleService/VehicleService.iml" filepath="$PROJECT_DIR$/VehicleService/VehicleService.iml" />

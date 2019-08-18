@@ -11,6 +11,7 @@
         <module name="Collection" />
         <module name="SpringJDBC" />
         <module name="SpringWithJPA" />
+        <module name="SpringCore" />
         <module name="BikeClint" />
         <module name="BikeService" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="CoreJDBC" target="12" />
       <module name="Database" target="1.5" />
       <module name="RmiServer" target="12" />
+      <module name="SpringCore" target="12" />
       <module name="SpringJDBC" target="1.5" />
       <module name="SpringWithJPA" target="1.5" />
     </bytecodeTargetLevel>
