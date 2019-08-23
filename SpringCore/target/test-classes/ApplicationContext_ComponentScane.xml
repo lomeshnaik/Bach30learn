@@ -37,11 +37,6 @@
     <!-- If Using context:component-scan then we need the @Component for each class and @Autowired annotation for the setter
 
     methods -->
-
-    <context:component-scan base-package="com.tutorial.spring.annotation.vehicle"/>
-
-
-
     <!--
 
         Once u define <context:annotation-config/> and @Autowired Annotation in ur setter methods ,
@@ -59,12 +54,6 @@
       <bean id="bike" class="com.tutorial.spring.annotation.vehicle.twowheel.Bike"/>
 
        <bean id="vehicle" class="com.tutorial.spring.annotation.vehicle.Vehicle"/>
-
-    -->
-
-
-
-
     <bean id="engineProvider" class="JavaLearn.Bach30.SpringCore.impl.EngineProviderImpl"/>
     <bean id="batterengineProvider" class="JavaLearn.Bach30.SpringCore.impl.BatterEngineProviderImpl" />
 
@@ -74,6 +63,7 @@
             <property name="engineProvider" ref="batterengineProvider"/>
     </bean>
 
-
+    -->
+    <context:component-scan base-package="JavaLearn.Bach30.SpringCore.impl"/>
 
 </beans>

@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CoreJDBC" />
+        <module name="SpringCore" />
         <module name="RmiServer" />
         <module name="Collection" />
         <module name="SpringJDBC" />
         <module name="SpringWithJPA" />
-        <module name="SpringCore" />
+        <module name="SpringBoot" />
         <module name="BikeClint" />
+        <module name="CoreJDBC" />
         <module name="BikeService" />
       </profile>
     </annotationProcessing>
@@ -23,9 +24,15 @@
       <module name="CoreJDBC" target="12" />
       <module name="Database" target="1.5" />
       <module name="RmiServer" target="12" />
+      <module name="SpringBoot" target="12" />
       <module name="SpringCore" target="12" />
       <module name="SpringJDBC" target="1.5" />
       <module name="SpringWithJPA" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot" options="-parameters" />
+    </option>
   </component>
 </project>

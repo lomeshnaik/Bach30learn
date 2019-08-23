@@ -17,4 +17,6 @@ public class SpringTest {
         vehicle = (IVehicle) context.getBean("vehicle");
         System.out.println(vehicle.hashCode());
     }
+
+
 }

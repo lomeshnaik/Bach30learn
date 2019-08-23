@@ -60,12 +60,20 @@
 
        <bean id="vehicle" class="com.tutorial.spring.annotation.vehicle.Vehicle"/>
 
-
-
-      <bean id="vehicle" class="JavaLearn.Bach30.SpringCore.impl.HondaVehicleImpl"scope="prototype"/>
     -->
 
 
-    <bean id="vehicle" class="JavaLearn.Bach30.SpringCore.impl.BMWVehicleImpl" scope="singleton"/>
+
+
+    <bean id="engineProvider" class="JavaLearn.Bach30.SpringCore.impl.EngineProviderImpl"/>
+    <bean id="batterengineProvider" class="JavaLearn.Bach30.SpringCore.impl.BatterEngineProviderImpl" />
+
+    <bean id="vehicle2" class="JavaLearn.Bach30.SpringCore.impl.HondaVehicleImpl" />
+
+    <bean id="vehicle" class="JavaLearn.Bach30.SpringCore.impl.BMWVehicleImpl" >
+            <property name="engineProvider" ref="batterengineProvider"/>
+    </bean>
+
+
 
 </beans>

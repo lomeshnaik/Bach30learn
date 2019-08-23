@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Collection/pom.xml" />
         <option value="$PROJECT_DIR$/Database/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCore/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringBoot/pom.xml" />
       </list>
     </option>
   </component>
