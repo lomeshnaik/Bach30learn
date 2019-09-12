@@ -21,7 +21,7 @@ public class SpringJdbcConfig {
         @Value("${mysql.password}")
         private String mysqlPassword;
 
-    @Bean
+    //@Bean
     public DataSource mysqlDataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(driverClassName);

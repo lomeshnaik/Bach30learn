@@ -2,18 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringCore" />
-        <module name="SpringJDBC" />
         <module name="RmiServer" />
         <module name="Collection" />
-        <module name="SpringBoot" />
-        <module name="SpringWithJPA" />
-        <module name="BikeClint" />
+        <module name="SpringJDBC" />
         <module name="CoreJDBC" />
+        <module name="SpringWithJPA" />
+        <module name="WebApplicationServlet" />
+        <module name="BikeClint" />
+        <module name="SpringBoot" />
         <module name="BikeService" />
         <module name="SpringBootJDBC" />
       </profile>
@@ -30,6 +32,7 @@
       <module name="SpringCore" target="12" />
       <module name="SpringJDBC" target="1.5" />
       <module name="SpringWithJPA" target="1.5" />
+      <module name="WebApplicationServlet" target="12" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

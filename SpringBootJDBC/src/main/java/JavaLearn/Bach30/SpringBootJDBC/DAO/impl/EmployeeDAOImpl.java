@@ -12,10 +12,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-@Component
+//@Component
 public class EmployeeDAOImpl implements IEmployeeDAO {
 
-    @Autowired
+    //@Autowired
     private DataSource dataSource;
 
     //@Autowired
@@ -23,7 +23,7 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 
 
 
-    @Override
+   // @Override
     public String fetchFirstNameUsingId(int empId) {
         String firstName = null;
         Connection connection = null;

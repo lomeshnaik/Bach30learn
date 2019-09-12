@@ -11,6 +11,9 @@
       <writeAnnotation name="org.springframework.beans.factory.annotation.Autowired" />
     </writeAnnotations>
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/WebApplicationServlet" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -22,6 +25,10 @@
         <option value="$PROJECT_DIR$/SpringCore/pom.xml" />
         <option value="$PROJECT_DIR$/../SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/../SpringBootJDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootJDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/WebApplicaationServlet/pom.xml" />
+        <option value="$PROJECT_DIR$/WebApplicationServlet/pom.xml" />
       </list>
     </option>
   </component>

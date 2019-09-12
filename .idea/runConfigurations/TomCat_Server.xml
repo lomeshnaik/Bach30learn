@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TomCat Server" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" singleton="false">
+    <option name="DOC_BASE" value="C:\Users\user\Desktop\New folder\New folder\Bach30learn\WebApplicationServlet\src\main\webapp" />
+    <option name="CONTEXT_PATH" value="/firstapp" />
+    <option name="TOMCAT_PORT" value="8080" />
+    <option name="AJP_PORT" value="8009" />
+    <option name="ADMIN_PORT" value="8005" />
+    <option name="VM_OPTIONS" value="-Dcatalina.base=&quot;C:\xampp\tomcat&quot; -Dcatalina.home=&quot;C:\xampp\tomcat&quot; -Djuli-logback.configurationFile=&quot;C:\xampp\tomcat\conf\logback.xml&quot; -Xms4G -Xms4G -DENV-DEV -Dspring.profiles.active=dev" />
+    <option name="PASS_PARENT_ENV_OPTIONS" value="true" />
+    <method v="2">
+      <option name="MakeProject" enabled="true" />
+      <option name="LaunchBrowser.Before.Run" url="http://localhost:8080/firstapp" />
+    </method>
+  </configuration>
+</component>
